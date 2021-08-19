@@ -9,6 +9,7 @@ function ExpenseItem(props) {
     setTitle('Updated!!');
     console.log('Clicked!!!');
   };
+
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
